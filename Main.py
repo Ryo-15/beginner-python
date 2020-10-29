@@ -34,3 +34,11 @@ print("リンゴの単価：" + str(apple_price) + "円")
 print("リンゴを買う数：" + str(apple_num) + "個")
 total = apple_price * apple_num
 print("合計金額：" + str(total) + "円")
+
+# coding: utf-8
+# データの種類
+number = 100 + 40	#数値
+strings = "ハロー" + "paiza"	#文字列
+print(number)
+print(strings)
+print(str(number) + strings)
