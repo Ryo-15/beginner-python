@@ -42,3 +42,11 @@ strings = "ハロー" + "paiza"	#文字列
 print(number)
 print(strings)
 print(str(number) + strings)
+
+# coding: utf-8
+# if文による条件分岐
+number = 1
+if number == 1:
+    print("スキ！")
+else:
+    print("キライ")
