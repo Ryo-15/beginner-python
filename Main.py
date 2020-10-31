@@ -61,3 +61,12 @@ elif number == 2:
 else:
 	print( "キライ")	#条件式が成立しなかったときの処理
 
+# coding: utf-8
+# if文による条件分岐　比較演算子
+time= 13
+if time < 12:
+	print("午前中")	#条件式が成立したときの処理
+elif time == 12:
+    print("正午")
+elif time > 12:
+    print("午後")
