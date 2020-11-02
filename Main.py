@@ -132,3 +132,21 @@ while i <= 10:
     i = i + 1
     print("next:" + str(i))
 print("last" + str(i))
+
+# coding: utf-8
+# whileによるループ処理
+
+i = 10# カウンタ変数を初期化
+while i >= 1:
+    print(i)  # 繰り返し処理
+    # i = i + 1 # カウンタ変数を更新
+    i -= 1
+print("last:" + str(i))
+
+import random
+hp = 30
+while hp > 0:
+    hit = random.randint(1, 10)
+    print("スライムに" + str(hit) + "のダメージを与えた！")
+    hp -= hit
+print("スライムを倒した")
