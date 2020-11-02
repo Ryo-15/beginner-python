@@ -122,3 +122,13 @@ print("平成" + str(heisei) + "年です。")
 for i in range(6, 11):
     print("hello world:" + str(i))
 print("last " + str(i))
+
+# coding: utf-8
+# whileによるループ処理
+
+i = 1
+while i <= 10:
+    print(i)
+    i = i + 1
+    print("next:" + str(i))
+print("last" + str(i))
