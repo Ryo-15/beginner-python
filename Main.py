@@ -115,3 +115,10 @@ print("西暦" + str(seireki) + "年は、",end="")
 
 heisei = seireki - 1988
 print("平成" + str(heisei) + "年です。")
+
+# coding: utf-8
+# for inによるループ処理
+
+for i in range(6, 11):
+    print("hello world:" + str(i))
+print("last " + str(i))
