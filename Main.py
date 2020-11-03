@@ -177,3 +177,11 @@ for i in range(count):
     line = input().rstrip()
     print(line + "は、スライムを攻撃した！")
 
+# coding: utf-8
+# 標準入力とループ処理
+a = int(input())
+b = int(input())
+
+for i in range(a, b + 1):
+  print(i)
+
