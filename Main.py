@@ -150,3 +150,14 @@ while hp > 0:
     print("スライムに" + str(hit) + "のダメージを与えた！")
     hp -= hit
 print("スライムを倒した")
+
+# coding: utf-8
+# 年齢入力のプルダウン作成
+print("<select name=\'age\'>")
+# print("<option>1才</option>")
+# print("<option>2才</option>")
+# print("<option>3才</option>")
+for age in range(100):
+    print("<option>" + str(age + 1) + "歳</option>")
+print("</select>")
+
