@@ -161,3 +161,8 @@ for age in range(100):
     print("<option>" + str(age + 1) + "歳</option>")
 print("</select>")
 
+# coding: utf-8
+# inputによる入力処理
+line = input()
+print("hello" + line)
+
