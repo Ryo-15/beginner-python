@@ -194,3 +194,28 @@ for seireki in range(1989, 2020):
     heisei = seireki - 1989
     print("平成" + str(heisei) + "年です。")
 
+# coding: utf-8
+# 特定期間の西暦年と昭和年の対応表を作る
+# 1行目：開始年
+# 2行目：期間
+# 昭和年 = 西暦年 - 1925
+# 出力：西暦XXXX年は昭和YY年です
+start = int(input())
+term = int(input())
+
+for seireki in range(start, start + term):
+    print("西暦" + str(seireki) + "年は", end = "")
+    syowa = seireki - 1925
+    print("昭和" + str(syowa) +"年です")
+
+# coding: utf-8
+# リストを作成する
+player_1 = "勇者"
+player_2 = "魔法使い"
+
+print(player_1)
+print(player_2)
+
+team = ["勇者", "魔法使い"]
+print(team)
+
