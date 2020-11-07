@@ -274,4 +274,31 @@ print(len(line))
 for enemy in line:
     print(enemy + "が現れた！")
 
+# coding: utf-8
+#英文の単語数を数える
+
+str = "One cold rainy day when my father was a little boy he met an old alley cat on his street"
+words = str.split(" ")
+print(len(words))
+
+# coding: utf-8
+# 標準入力から読み込んだURLを分割する
+# https://paiza.jp/cgc/users/ready
+
+url_str = input().rstrip()
+words = url_str.split("/")
+print(words)
+
+# coding: utf-8
+# 複数行データをリストに格納する
+
+# sys.stdin.readlines関数 ファイルを全て読み込み、1行毎に処理
+import sys
+array = []
+for line in sys.stdin.readlines():
+# line = input().rstrip()
+    array.append(line.rstrip())
+    # print(line.rstrip())
+
+print(array)
 
