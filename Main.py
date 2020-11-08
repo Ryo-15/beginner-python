@@ -311,3 +311,21 @@ for line in sys.stdin.readlines():
 	enemy = line.rstrip().split(",")
 	print(enemy[0] + "が" + enemy[1] + "匹現れた")
 
+# coding: utf-8
+# リストを使ったランダムくじ
+# スライム,モンスター,ドラゴン,魔王
+
+import random
+line = input().rstrip().split(",")
+for enemy in line:
+	print(enemy + "が現れた！")
+
+# ランダムな数を作る範囲を調べる
+num = len(line)
+print("敵は" + str(num) + "匹")
+
+# ランダムな数を生成
+attack = random.randrange(num)
+
+# 選んだ的に、「会心の一撃！」と表示
+print(line[attack] + "に会心の一撃！" + line[attack] + "を倒した！")
