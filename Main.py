@@ -384,3 +384,9 @@ print(enemeyDictionary["中ボス"])
 
 level = "ザコ"
 print(enemeyDictionary[level])
+
+# 指定の文字を辞書にする
+
+skills ={"職業":"戦士", "体力":100, "魔法力":200, "ゴールド":380}
+
+print(skills)
