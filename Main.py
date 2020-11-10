@@ -411,3 +411,18 @@ print(len(enemies))
 del enemies["ザコ"]
 print(enemies)
 print(len(enemies))
+
+# coding: utf-8
+# Your code here!
+
+# 辞書をループで処理する
+
+# 辞書のおさらい
+enemies = {"ザコ":"スライム", "中ボス":"ドラゴン", "ラスボス":"魔王"}
+print(enemies)
+print(enemies["中ボス"])
+
+for rank in enemies:
+    print(enemies[rank] + "が、あらわれた！")
+for (rank, enemy) in enemies.items():
+    print(rank + "の" + enemy + "が、あらわれた！")
