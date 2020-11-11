@@ -479,3 +479,10 @@ print(weapons)
 print(sorted(weapons))
 # タプル
 print(sorted(weapons.items()))
+
+
+# 辞書をソートして辞書で出力する
+math = {"えんどう" : 99, "あだち" : 40, "いいだ" : 12}
+
+# この下で、辞書をキーでソートして、辞書として出力しよう
+print(sorted(math.items()))
