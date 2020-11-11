@@ -468,3 +468,14 @@ print(sorted(weapons3))
 apples = [310, 322, 292, 288, 300, 346]
 # ここに、要素をソートして、逆順に整列し、表示するコードを記述する 
 print(sorted(apples, reverse=True))
+
+
+# coding: utf-8
+# Your code here!
+
+# 辞書の整列
+weapons = {"イージスソード":40, "ウインドスピア":12, "アースブレイカー":99}
+print(weapons)
+print(sorted(weapons))
+# タプル
+print(sorted(weapons.items()))
