@@ -461,3 +461,10 @@ print(sorted(weapons2))
 # 文字コード順になる
 weapons3 = ["バーニングソード", "風神スピア", "大地ブレイカー", "稲妻ハンマー"]
 print(sorted(weapons3))
+
+
+#リストを逆順にソートする
+
+apples = [310, 322, 292, 288, 300, 346]
+# ここに、要素をソートして、逆順に整列し、表示するコードを記述する 
+print(sorted(apples, reverse=True))
