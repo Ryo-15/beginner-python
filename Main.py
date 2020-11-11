@@ -433,3 +433,31 @@ skills = {"職業" : "戦士", "体力" : 100, "魔法力" : 200, "ゴールド"
 # この下で、ハッシュの値をループで出力してみよう
 for (a, skill) in skills.items():
     print(a + "は" + str(skill) + "です")
+
+# ループで合計を計算しよう
+
+points = {"国語" : 70, "算数" : 35, "英語" : 52}
+sum = 0
+# この下で、辞書の値の合計をループで計算してみよう
+for key in points:
+    sum += points[key]
+print(sum)
+
+
+# coding: utf-8
+# Your code here!
+
+# リストの整列
+weapons = ["イージスソード", "ウィンドスピア", "アースブレイカー", "イナズマハンマー"]
+print(weapons)
+
+print(sorted(weapons))
+print(sorted(weapons, reverse=True))
+
+# 数字順
+weapons2 = ["4.イージスソード", "1.ウィンドスピア", "2.アースブレイカー", "3.イナズマハンマー"]
+print(sorted(weapons2))
+
+# 文字コード順になる
+weapons3 = ["バーニングソード", "風神スピア", "大地ブレイカー", "稲妻ハンマー"]
+print(sorted(weapons3))
