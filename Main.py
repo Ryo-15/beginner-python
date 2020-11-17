@@ -612,3 +612,13 @@ del teams[0][1]
 print(teams)
 print(len(teams))
 print(len(teams[0]))
+
+
+# 2次元リストに要素を追加する
+
+basket = [["木の棒", "こん棒", "エクスカリバー"], ["おにぎり", "おにぎり", "むぎ茶"], ["毒消し", "薬草", "アイアンシールド"]]
+
+# ここに、要素を追加するコードを記述する
+basket[0].append("石斧")
+
+print(basket)
