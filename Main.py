@@ -632,3 +632,22 @@ basket = [["木の棒", "こん棒", "エクスカリバー"], ["おにぎり", 
 del basket[2][2]
 
 print(basket)
+
+
+# coding: utf-8
+# Your code here!
+
+# ループでリストを処理する
+team = ["勇者", "戦士", "魔法使い"]
+print(team)
+print(team[0])
+
+for (i, person) in enumerate(team):
+    print(str(i + 1) + "番目の" + person + "が、スライムと戦った")
+    
+numbers = [3, 1, 4, 5]
+results = []
+for item in numbers:
+    results.append(item * 10)
+    
+print(results)
