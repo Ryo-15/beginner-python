@@ -687,3 +687,8 @@ numbers2 = [[1 for i in range(3)] for j in range(4)]
 numbers2[0][1] = 2
 print(numbers2)
 
+
+# forでリストを作成してみよう
+list = ["paiza" for paiza in range(5)]
+print(list)
+
